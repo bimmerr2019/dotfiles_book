@@ -31,6 +31,9 @@ mkdir -p "$VIMCONFIG/undo"
 mkdir -p "$VIMCONFIG/swap"
 mkdir -p "$VIMCONFIG/after"
 
+mkdir -p $HOME/.ssh
+ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+
 # Install Godoctor for vim
 if [ ! -d "$VIMCONFIG/godoctor.vim" ]
   then
