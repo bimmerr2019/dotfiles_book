@@ -191,4 +191,4 @@ source /usr/share/nvm/init-nvm.sh
 # | SYNTAX HIGHLIGHTING |
 # +---------------------+
 
-source $DOTFILES/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
